@@ -11,5 +11,5 @@ int main()
 	StudentClass.setName(c);
 
 	float a=StudentClass.getAvg();
-	printf("%f", a);
+	printf("Media este:%f", a);
 }
