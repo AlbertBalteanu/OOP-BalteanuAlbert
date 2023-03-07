@@ -1,11 +1,17 @@
 #pragma once
+#include <cstdlib>
+#include <iostream>
 class Canvas
 {
     // add private data members
+    int width, height;
+    char** matrix;
 
 public:
 
     Canvas(int width, int height);
+    //test
+    void test();
 
     void DrawCircle(int x, int y, int ray, char ch);
 
