@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  Canvas.cpp
+D:\github\OOP-BalteanuAlbert\LAB 3 PROB 2\LAB 3 PROB 2\Canvas.cpp(110,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\github\OOP-BalteanuAlbert\LAB 3 PROB 2\LAB 3 PROB 2\Canvas.cpp(110,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   LAB 3 PROB 2.vcxproj -> D:\github\OOP-BalteanuAlbert\LAB 3 PROB 2\x64\Debug\LAB 3 PROB 2.exe
