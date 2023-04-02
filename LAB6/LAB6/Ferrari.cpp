@@ -11,7 +11,7 @@ void Ferrari::setlPerKm()
 {
 	this->lPerKm = 10;
 }
-void Ferrari::setavgSpeedSunny()
+void Ferrari::setSpeedSunny()
 {
 	this->avgSpeedSunny = 170;
 }
@@ -19,7 +19,7 @@ void Ferrari::setSpeedRainy()
 {
 	this->avgSpeedRainy = 120;
 }
-void Ferrari::setSpeedSunny()
+void Ferrari::setSpeedSnowy()
 {
 	this->avgSpeedSnowy = 90;
 }

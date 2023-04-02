@@ -11,7 +11,7 @@ void Lambo::setlPerKm()
 {
 	this->lPerKm = 12;
 }
-void Lambo::setavgSpeedSunny()
+void Lambo::setSpeedSunny()
 {
 	this->avgSpeedSunny = 180;
 }
@@ -19,7 +19,7 @@ void Lambo::setSpeedRainy()
 {
 	this->avgSpeedRainy = 130;
 }
-void Lambo::setSpeedSunny()
+void Lambo::setSpeedSnowy()
 {
 	this->avgSpeedSnowy = 60;
 }
