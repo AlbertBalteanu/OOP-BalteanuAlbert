@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\github\OOP-BalteanuAlbert\LAB7\LAB7\Source.cpp(5,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\github\OOP-BalteanuAlbert\LAB7\LAB7\Source.cpp(9,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  LAB7.vcxproj -> D:\github\OOP-BalteanuAlbert\LAB7\x64\Debug\LAB7.exe

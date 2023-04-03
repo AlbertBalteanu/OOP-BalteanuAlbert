@@ -1,0 +1,37 @@
+﻿  main.cpp
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\main.cpp(33,28): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\main.cpp(34,28): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\main.cpp(45,33): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\Templates.h(11,11): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\main.cpp(48,89): message : see reference to function template instantiation 'int functieDeComparare1<T>(T,T)' being compiled
+          with
+          [
+              T=float
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\Templates.h(17,11): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\POO2022-main\POO2022-main\Laborator7\surseVideo\main.cpp(49,89): message : see reference to function template instantiation 'int functieDeComparare2<T>(T,T)' being compiled
+          with
+          [
+              T=float
+          ]
+  lab7ex.prof.vcxproj -> D:\github\OOP-BalteanuAlbert\lab7ex.prof\x64\Debug\lab7ex.prof.exe
