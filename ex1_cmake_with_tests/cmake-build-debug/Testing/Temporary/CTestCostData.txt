@@ -1,0 +1,23 @@
+Ex1Test.BasicAssertionsInc2 3 0.0052939
+Ex1Test.BasicAssertionsSqr 3 0.00519903
+Ex1Test.CombinedAssertions 9 0.0014492
+Ex1Test.BondaryAssertions 0 0
+insertSort.test1 1 0.0140653
+insertionSort.test1 2 0
+insertionSort.testasc 0 0
+insertionSort.testdesc 0 0
+insertionSort.test4 3 0.00537277
+insertionSort.test5 1 0.0201708
+insertionSort1.testasc 4 0
+insertionSort1.testdesc 4 0
+insertionSort.testrearanjarecorecta 2 0
+insertionSort1.testascendenta 0 0
+insertionSort1.testdescendenta 0 0
+insertionSort.testprimulel 0 0
+insertionSort.testultimulel 1 0
+---
+insertionSort.test1
+insertionSort.testprimulel
+insertionSort.testultimulel
+insertionSort1.testascendenta
+insertionSort1.testdescendenta

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1[1]_tests.cmake")
+  include("C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1[1]_tests.cmake")
+else()
+  add_test(ex1_test1_NOT_BUILT ex1_test1_NOT_BUILT)
+endif()

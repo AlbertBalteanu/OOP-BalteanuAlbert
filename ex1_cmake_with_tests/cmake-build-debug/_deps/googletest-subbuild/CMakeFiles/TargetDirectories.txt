@@ -1,0 +1,3 @@
+C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

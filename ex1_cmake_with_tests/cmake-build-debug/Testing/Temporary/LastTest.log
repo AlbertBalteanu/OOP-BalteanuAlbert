@@ -1,0 +1,183 @@
+Start testing: May 20 20:59 GTB Daylight Time
+----------------------------------------------------------
+1/5 Testing: insertionSort.test1
+1/5 Test: insertionSort.test1
+Command: "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1.exe" "--gtest_filter=insertionSort.test1" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+"insertionSort.test1" start time: May 20 20:59 GTB Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = insertionSort.test1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from insertionSort
+[ RUN      ] insertionSort.test1
+C:\Users\balte\Desktop\ex1_cmake_with_tests\tests\test1.cpp:22: Failure
+Expected equality of these values:
+  insertionSort1(v,n,0)
+    Which is: 0
+  1
+[  FAILED  ] insertionSort.test1 (1 ms)
+[----------] 1 test from insertionSort (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] insertionSort.test1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"insertionSort.test1" end time: May 20 20:59 GTB Daylight Time
+"insertionSort.test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: insertionSort.testprimulel
+2/5 Test: insertionSort.testprimulel
+Command: "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1.exe" "--gtest_filter=insertionSort.testprimulel" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+"insertionSort.testprimulel" start time: May 20 20:59 GTB Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = insertionSort.testprimulel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from insertionSort
+[ RUN      ] insertionSort.testprimulel
+C:\Users\balte\Desktop\ex1_cmake_with_tests\tests\test1.cpp:40: Failure
+Expected equality of these values:
+  v[0]
+    Which is: 6
+  3
+[  FAILED  ] insertionSort.testprimulel (0 ms)
+[----------] 1 test from insertionSort (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] insertionSort.testprimulel
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"insertionSort.testprimulel" end time: May 20 20:59 GTB Daylight Time
+"insertionSort.testprimulel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: insertionSort.testultimulel
+3/5 Test: insertionSort.testultimulel
+Command: "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1.exe" "--gtest_filter=insertionSort.testultimulel" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+"insertionSort.testultimulel" start time: May 20 20:59 GTB Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = insertionSort.testultimulel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from insertionSort
+[ RUN      ] insertionSort.testultimulel
+C:\Users\balte\Desktop\ex1_cmake_with_tests\tests\test1.cpp:46: Failure
+Expected equality of these values:
+  v[3]
+    Which is: 4
+  7
+[  FAILED  ] insertionSort.testultimulel (0 ms)
+[----------] 1 test from insertionSort (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] insertionSort.testultimulel
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"insertionSort.testultimulel" end time: May 20 20:59 GTB Daylight Time
+"insertionSort.testultimulel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: insertionSort1.testascendenta
+4/5 Test: insertionSort1.testascendenta
+Command: "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1.exe" "--gtest_filter=insertionSort1.testascendenta" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+"insertionSort1.testascendenta" start time: May 20 20:59 GTB Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = insertionSort1.testascendenta
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from insertionSort1
+[ RUN      ] insertionSort1.testascendenta
+C:\Users\balte\Desktop\ex1_cmake_with_tests\tests\test1.cpp:28: Failure
+Expected equality of these values:
+  v[0]
+    Which is: 7
+  3
+[  FAILED  ] insertionSort1.testascendenta (0 ms)
+[----------] 1 test from insertionSort1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] insertionSort1.testascendenta
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"insertionSort1.testascendenta" end time: May 20 20:59 GTB Daylight Time
+"insertionSort1.testascendenta" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: insertionSort1.testdescendenta
+5/5 Test: insertionSort1.testdescendenta
+Command: "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/ex1_test1.exe" "--gtest_filter=insertionSort1.testdescendenta" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+"insertionSort1.testdescendenta" start time: May 20 20:59 GTB Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = insertionSort1.testdescendenta
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from insertionSort1
+[ RUN      ] insertionSort1.testdescendenta
+C:\Users\balte\Desktop\ex1_cmake_with_tests\tests\test1.cpp:34: Failure
+Expected equality of these values:
+  v[0]
+    Which is: 3
+  7
+[  FAILED  ] insertionSort1.testdescendenta (0 ms)
+[----------] 1 test from insertionSort1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] insertionSort1.testdescendenta
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"insertionSort1.testdescendenta" end time: May 20 20:59 GTB Daylight Time
+"insertionSort1.testdescendenta" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 20 20:59 GTB Daylight Time
