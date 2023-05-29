@@ -1,0 +1,3 @@
+D:/github/OOP-BalteanuAlbert/lab11cmake/cmake-build-debug/CMakeFiles/lab11cmake.dir
+D:/github/OOP-BalteanuAlbert/lab11cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/github/OOP-BalteanuAlbert/lab11cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir

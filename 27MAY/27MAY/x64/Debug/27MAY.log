@@ -1,0 +1,36 @@
+﻿  Source.cpp
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(69,2): error C2953: 'Array': class template has already been defined
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(30,7): message : see declaration of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(75,14): error C2039: '[]': is not a member of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(30,7): message : see declaration of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(76,1): error C2447: '{': missing function header (old-style formal list?)
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(84,27): error C2039: 'Insert': is not a member of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(30,7): message : see declaration of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(85,1): error C2447: '{': missing function header (old-style formal list?)
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(96,27): error C2039: 'Delete': is not a member of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(30,7): message : see declaration of 'Array'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(97,1): error C2447: '{': missing function header (old-style formal list?)
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): error C2244: 'Array::Sort': unable to match function definition to an existing declaration
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(108,16): message : see declaration of 'Array::Sort'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : definition
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : 'void Array::Sort(void)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : existing declarations
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : 'void Array<T>::Sort(Compare<T> *)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : 'void Array<T>::Sort(int (__cdecl *)(const T &,const T &))'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(109,1): message : 'void Array<T>::Sort(void)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): error C2244: 'Array::BinarySearch': unable to match function definition to an existing declaration
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(118,15): message : see declaration of 'Array::BinarySearch'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : definition
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : 'int Array::BinarySearch(const T &)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : existing declarations
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : 'int Array<T>::BinarySearch(const T &,Compare<T> *)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : 'int Array<T>::BinarySearch(const T &,int (__cdecl *)(const T &,const T &))'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(119,1): message : 'int Array<T>::BinarySearch(const T &)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): error C2244: 'Array::Find': unable to match function definition to an existing declaration
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(130,15): message : see declaration of 'Array::Find'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : definition
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : 'int Array::Find(const T &)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : existing declarations
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : 'int Array<T>::Find(const T &,Compare<T> *)'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : 'int Array<T>::Find(const T &,int (__cdecl *)(const T &,const T &))'
+D:\github\OOP-BalteanuAlbert\27MAY\27MAY\Source.cpp(131,1): message : 'int Array<T>::Find(const T &)'

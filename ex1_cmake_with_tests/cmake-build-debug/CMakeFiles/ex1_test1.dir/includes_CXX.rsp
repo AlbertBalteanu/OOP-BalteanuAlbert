@@ -1,1 +1,0 @@
--IC:/Users/balte/Desktop/ex1_cmake_with_tests/includes -isystem "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-src/googletest"

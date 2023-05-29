@@ -1,4 +1,16 @@
-"C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\balte\Desktop\ex1_cmake_with_tests -B C:\Users\balte\Desktop\ex1_cmake_with_tests\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\github\OOP-BalteanuAlbert\ex1_cmake_with_tests -B D:\github\OOP-BalteanuAlbert\ex1_cmake_with_tests\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 CMake Warning (dev) at C:/Program Files/JetBrains/CLion 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1284 (message):
   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
   not set.  The policy's OLD behavior will be used.  When using a URL
@@ -13,31 +25,16 @@ Call Stack (most recent call first):
   CMakeLists.txt:26 (FetchContent_Declare)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
-CMake Deprecation Warning at cmake-build-debug/_deps/googletest-src/CMakeLists.txt:4 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
+CMake Error: The current CMakeCache.txt directory D:/github/OOP-BalteanuAlbert/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-subbuild/CMakeCache.txt is different than the directory c:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
 
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
-CMake Deprecation Warning at cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
+CMake Error at C:/Program Files/JetBrains/CLion 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1612 (message):
+  CMake step for googletest failed: 1
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1764:EVAL:2 (__FetchContent_directPopulate)
+  C:/Program Files/JetBrains/CLion 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1764 (cmake_language)
+  C:/Program Files/JetBrains/CLion 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1978 (FetchContent_Populate)
+  CMakeLists.txt:34 (FetchContent_MakeAvailable)
 
 
-CMake Deprecation Warning at cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt:56 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) 
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "D:/github/OOP-BalteanuAlbert/ex1_cmake_with_tests/cmake-build-debug/CMakeFiles/CMakeOutput.log".

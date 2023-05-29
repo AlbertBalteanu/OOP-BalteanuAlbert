@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\github\OOP-BalteanuAlbert\main.cpp(200): warning C4715: 'Array<int>::Insert': not all control paths return a value
+  Lab8.vcxproj -> D:\github\OOP-BalteanuAlbert\Lab8\x64\Debug\Lab8.exe

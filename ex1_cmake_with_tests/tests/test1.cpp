@@ -3,7 +3,6 @@
 //
 
 #include <gtest/gtest.h>
-#include "../includes/fnctns.h"
 #include "../includes/sort.h"
 #include <climits>
 
@@ -45,11 +44,11 @@ TEST(insertionSort,testultimulel)
     insertionSort3(v,n,1);
     EXPECT_EQ(v[3],7);
 }
-int main()
-{
-    int v[]={6,3,7,4},n=4;
-    insertionSort(v,n,1);
-    for(int i=0;i<n;i++)
-        printf("%d ",v[i]);
-    return 0;
-}
+//int main()
+//{
+//    int v[]={6,3,7,4},n=4;
+//    insertionSort(v,n,1);
+//    for(int i=0;i<n;i++)
+//        printf("%d ",v[i]);
+//    return 0;
+//}

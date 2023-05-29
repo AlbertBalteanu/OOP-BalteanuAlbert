@@ -14,8 +14,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "URL" "https://github.com/google/googletest/archive/refs/tags/release-1.10.0.zip"
-                    SOURCE_DIR          "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-src"
-                    BINARY_DIR          "C:/Users/balte/Desktop/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-build"
+                    SOURCE_DIR          "D:/github/OOP-BalteanuAlbert/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-src"
+                    BINARY_DIR          "D:/github/OOP-BalteanuAlbert/ex1_cmake_with_tests/cmake-build-debug/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
